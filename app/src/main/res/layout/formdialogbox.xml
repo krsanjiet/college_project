@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NAME"
+                android:textSize="20sp"
+                android:textColor="#222831"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textColor="#222831"
+                android:inputType="textAutoComplete"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AGE"
+                android:textSize="20sp"
+                android:textColor="#222831"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textColor="#222831"
+                android:inputType="number"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/containerdesign1"
+            android:layout_margin="10dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="GENDER"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textColor="#f9fcfb"
+                />
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+
+                >
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="MALE"
+                    android:textColor="#faf5e4"
+                    android:textSize="15sp"
+
+                    />
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="FEMALE"
+                    android:textColor="#faf5e4"
+                    android:textSize="15sp"
+
+                    />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            android:background="@drawable/containerdesign1"
+
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SYMPTOMS"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:textColor="#f9fcfb"
+                android:layout_marginTop="5dp"
+                />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FEVER"
+                android:textColor="#faf5e4"
+                android:textSize="15sp"
+                />
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DRY COUGH"
+                android:textColor="#faf5e4"
+                android:textSize="15sp"
+                />
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TIREDNESS"
+                android:textColor="#faf5e4"
+                android:textSize="15sp"
+                />
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DIFFICULTY BREATHING OR SHORTNESS OF BREADTH"
+                android:textColor="#faf5e4"
+                android:textSize="15sp"
+                />
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CHEST PAIN OR PRESSURE"
+                android:textColor="#faf5e4"
+                android:textSize="15sp"
+                />
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LOSS OF SPEECH OR MOVEMENT"
+                android:textColor="#faf5e4"
+                android:textSize="15sp"
+                />
+
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="#ffffff"
+        >
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="SUBMIT"
+            android:background="@drawable/containerfragment"
+            android:layout_marginLeft="30dp"
+            />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="CANCEL"
+            android:background="@drawable/containerfragment"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

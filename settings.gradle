@@ -1,0 +1,2 @@
+rootProject.name='clg_Project'
+include ':app'
