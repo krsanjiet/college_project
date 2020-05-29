@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "528041742502",
+    "firebase_url": "https://clg-project-96ebb.firebaseio.com",
+    "project_id": "clg-project-96ebb",
+    "storage_bucket": "clg-project-96ebb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:528041742502:android:3aa2aa2a19b5b3e625e467",
+        "android_client_info": {
+          "package_name": "com.example.clg_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "528041742502-6pnvdbuu6q3u97tnmc74hr8r301aruf6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZTi-it-uI2NpQYzFE__toqYgUfInj9ic"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "528041742502-6pnvdbuu6q3u97tnmc74hr8r301aruf6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
