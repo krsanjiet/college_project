@@ -35,18 +35,21 @@ public class storeUserData{
         this.longitude = longitude;
     }
 
-    public void setPhoneNumber(String phoneNumber){
-        this.phoneNumber = phoneNumber;
+    public void setPhoneNumber(String phone){
+        this.phoneNumber = phone;
     }
 
     public void setStatus(String status) {
         this.status = status;
 
         DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference();
-        DatabaseReference covidRef = databaseReference.child("covid");
-        covidRef.setValue("23");
-        Log.i("DATABASE REFERENCE",covidRef.getParent().toString());
-
+        DatabaseReference covidRef = databaseReference.child("covid"+"/"+phoneNumber);
+        covidRef.child("name").setValue(name);
+        covidRef.child("age").setValue(age);
+        covidRef.child("longLoc").setValue(longitude);
+        covidRef.child("latLoc").setValue(latitude);
+        covidRef.child("status").setValue(this.status);
+        //Log.i("DATABASE REFERENCE",phoneNumber);
 
     }
 }
